@@ -7,7 +7,7 @@
 
 Platform e-commerce modular bertema *cyberpunk/dark-tech* untuk layanan *top-up* game otomatis dan jual-beli akun premium. Proyek ini dilengkapi dengan sistem filter produk yang dinamis serta animasi antarmuka premium menggunakan **Framer Motion**.
 
-🚀 **Live Demo:** [TEMPEL_LINK_VERCEL_KAMU_DI_SINI]
+🚀 **Live Demo:**[(https://game-store-iota-three.vercel.app/)]
 
 ---
 
