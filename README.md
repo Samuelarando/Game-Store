@@ -1,4 +1,4 @@
-# 🎮 Futuristic Game Marketplace & Top-Up Platform
+
 
 [![Framework](https://img.shields.io/badge/Framework-React%2018-blue?style=for-the-badge&logo=react)](https://react.dev/)
 [![Styling](https://img.shields.io/badge/Styling-Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
@@ -7,11 +7,11 @@
 
 Platform e-commerce modular bertema *cyberpunk/dark-tech* untuk layanan *top-up* game otomatis dan jual-beli akun premium. Proyek ini dilengkapi dengan sistem filter produk yang dinamis serta animasi antarmuka premium menggunakan **Framer Motion**.
 
-🚀 **Live Demo:**[(https://game-store-iota-three.vercel.app/)]
+ **Live Demo:**[(https://game-store-iota-three.vercel.app/)]
 
 ---
 
-## ⚡ Fitur Utama
+##  Fitur Utama
 
 * **Katalog Produk Modular:** Sistem grid produk interaktif yang menampilkan *item* berdasarkan kategori game secara *real-time*.
 * **Advanced Filtering & Sorting:** Fitur pencarian instan, filter berdasarkan tipe (Top Up / Akun), serta pengurutan berdasarkan harga termurah atau termahal.
@@ -21,7 +21,7 @@ Platform e-commerce modular bertema *cyberpunk/dark-tech* untuk layanan *top-up*
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 * **Front-End Library:** React.js (Hooks: `useState`, `useEffect`)
 * **Styling & Layout:** Tailwind CSS (utilitas grid, backdrop blur, glassmorphism)
@@ -30,7 +30,7 @@ Platform e-commerce modular bertema *cyberpunk/dark-tech* untuk layanan *top-up*
 
 ---
 
-## 📦 Cara Menjalankan Proyek Secara Lokal
+## Cara Menjalankan Proyek Secara Lokal
 
 Jika ingin menjalankan proyek ini di komputer lokal, ikuti langkah berikut:
 
