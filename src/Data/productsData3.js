@@ -1,0 +1,80 @@
+export const FEATURED_PRODUCTS = [
+  {
+    id: 1,
+    name: "86 Diamonds + Bonus",
+    game: "Mobile Legends",
+    type: "topup",
+    price: 20000,
+    originalPrice: 24000,
+    tag: "Paling Laris",
+    status: "Instant",
+    accentColor: "from-cyan-500/20 to-blue-500/10",
+    glowBorder: "group-hover:border-cyan-500/40",
+    image: "/diamond-ml.jpg" 
+  },
+  {
+    id: 2,
+    name: "6256 + 1494 UC Epic",
+    game: "PUBG Mobile",
+    type: "topup",
+    price: 1300000,
+    originalPrice: 1500000,
+    tag: "Diskon Besar",
+    status: "Instant",
+    accentColor: "from-amber-500/20 to-orange-500/10",
+    glowBorder: "group-hover:border-amber-500/40",
+    image: "/UC-PUBG.png"
+  },
+  {
+    id: 3,
+    name: "1125 Points Vandal",
+    game: "Valorant",
+    type: "topup",
+    price: 135000,
+    tag: "Best Value",
+    status: "Instant",
+    accentColor: "from-red-500/20 to-rose-600/10",
+    glowBorder: "group-hover:border-red-500/40",
+    image: "/vandal-valo.jpg"
+  },
+  {
+    id: 4,
+    name: "Akun MLBB Mythical Glory",
+    game: "Mobile Legends",
+    type: "akun",
+    price: 450000,
+    tag: "Premium Account",
+    specs: ["110 Heroes", "85 Skins (Epic/Coll)", "Winrate 68%"],
+    status: "Ready Stock",
+    accentColor: "from-purple-500/20 to-indigo-500/10",
+    glowBorder: "group-hover:border-purple-500/40",
+    image: "/akun-ml1.jfif"
+  },
+  {
+    id: 5,
+    name: "Akun PUBG M M416 Glacier",
+    game: "PUBG Mobile",
+    type: "akun",
+    price: 850000,
+    originalPrice: 990000,
+    tag: "Rare Collector",
+    specs: ["M416 Glacier Lv. 4", "Set Setan", "RP Max"],
+    status: "Ready Stock",
+    accentColor: "from-emerald-500/20 to-teal-500/10",
+    glowBorder: "group-hover:border-emerald-500/40",
+    image: "/akun-pubg.webp"
+  },
+  {
+    id: 6,
+    name: "Akun Valorant Kuronami",
+    game: "Valorant",
+    type: "akun",
+    price: 600000,
+    tag: "Hot Item",
+    specs: ["Kuronami Vandal Max", "Rank Diamond 2", "All Agent Unlocked"],
+    status: "Ready Stock",
+    accentColor: "from-pink-500/20 to-fuchsia-500/10",
+    glowBorder: "group-hover:border-pink-500/40",
+    image: "/valo.jfif" 
+  }
+];
