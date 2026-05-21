@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion'; // 💡 Import motion & AnimatePresence
-import { FEATURED_PRODUCTS } from '../data/productsData3';
+import { FEATURED_PRODUCTS } from '../Data/productsData3';
 // 💡 Import konfigurasi animasi terpusat
 import { staggerContainer, stackToGrid } from '../animations/variants';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion'; // 💡 Import motion
 // 💡 Import data dan animasi yang kita butuhkan dari file modular masing-masing
-import { PROMO_BANNERS, POPULAR_CATEGORIES } from '../data/productsData2';
+import { PROMO_BANNERS, POPULAR_CATEGORIES } from '../Data/productsData2';
 import { staggerContainer, promoSlideIn, categoryPopUp } from '../animations/variants';
 
 function PromoAndCategories() {

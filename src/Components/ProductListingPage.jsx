@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion'; 
-import { ALL_PRODUCTS, PAYMENT_METHODS } from '../data/productsData';
+import { ALL_PRODUCTS, PAYMENT_METHODS } from '../Data/productsData';
 // Import konfigurasi animasi terpusat
 import { staggerContainer, stackToGrid } from '../animations/variants';
 
