@@ -1,16 +1,39 @@
-# React + Vite
+# 🎮 Futuristic Game Marketplace & Top-Up Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Framework](https://img.shields.io/badge/Framework-React%2018-blue?style=for-the-badge&logo=react)](https://react.dev/)
+[![Styling](https://img.shields.io/badge/Styling-Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
+[![Animation](https://img.shields.io/badge/Animation-Framer%20Motion-purple?style=for-the-badge&logo=framer)](https://www.framer.com/motion/)
+[![Deployment](https://img.shields.io/badge/Deployment-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/)
 
-Currently, two official plugins are available:
+Platform e-commerce modular bertema *cyberpunk/dark-tech* untuk layanan *top-up* game otomatis dan jual-beli akun premium. Proyek ini dilengkapi dengan sistem filter produk yang dinamis serta animasi antarmuka premium menggunakan **Framer Motion**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 **Live Demo:** [TEMPEL_LINK_VERCEL_KAMU_DI_SINI]
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚡ Fitur Utama
 
-## Expanding the ESLint configuration
+* **Katalog Produk Modular:** Sistem grid produk interaktif yang menampilkan *item* berdasarkan kategori game secara *real-time*.
+* **Advanced Filtering & Sorting:** Fitur pencarian instan, filter berdasarkan tipe (Top Up / Akun), serta pengurutan berdasarkan harga termurah atau termahal.
+* **Cyberpunk Tab Switcher:** Perpindahan tab kategori produk dengan efek *sliding pill background* yang mulus.
+* **Fluid Layout Transitions:** Transisi kartu produk menggunakan efek tumpuk (*stacked-to-grid*) yang dinamis saat halaman dimuat ulang atau saat detail produk ditutup.
+* **Interactive Checkout Form:** Panel detail produk yang otomatis menyesuaikan formulir input berdasarkan tipe produk (input User ID/Zone ID khusus untuk *top-up*).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+* **Front-End Library:** React.js (Hooks: `useState`, `useEffect`)
+* **Styling & Layout:** Tailwind CSS (utilitas grid, backdrop blur, glassmorphism)
+* **Animation Engine:** Framer Motion (AnimatePresence, LayoutId, Custom Variants)
+* **Icons & Format:** React Icons / Emoji & `Intl.NumberFormat` untuk konversi Rupiah (IDR) otomatis.
+
+---
+
+## 📦 Cara Menjalankan Proyek Secara Lokal
+
+Jika ingin menjalankan proyek ini di komputer lokal, ikuti langkah berikut:
+
+1. **Clone Repository:**
+   ```bash
+   git clone [https://github.com/Samuelarando/Game-Store.git]
