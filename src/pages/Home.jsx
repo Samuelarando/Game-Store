@@ -1,9 +1,10 @@
 import Navbar from "../Components/Navigasi";
-import Hero from "../Components/Hero"
-import PromoAndCategories from "../Components/PromoAndCategories"
-import FeaturedProducts from "../Components/FeaturedProducts"
-import ProductListingPage from "../Components/ProductListingPage"
+import Hero from "../Components/Hero";
+import PromoAndCategories from "../Components/PromoAndCategories";
+import FeaturedProducts from "../Components/FeaturedProducts";
+import ProductListingPage from "../Components/ProductListingPage";
 import Testimonials from "../Components/Testimonials";
+
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <FeaturedProducts />
         <ProductListingPage />
         <Testimonials />
+        
     </div>
   );
 }

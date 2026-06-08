@@ -100,7 +100,7 @@ function ProductListingPage() {
               className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
             >
               {filteredProducts.map((product, index) => (
-                /* AnimatePresence dipasang di dalam map dengan properti custom agar kalkulasi koordinat awal variants mendeteksi index */
+                
                 <AnimatePresence key={product.id} mode="popLayout" custom={index}>
                   <motion.div 
                     layout                    

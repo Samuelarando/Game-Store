@@ -13,11 +13,10 @@ function Hero() {
       <div className="absolute w-[300px] h-[300px] md:w-[600px] md:h-[600px] bg-pink-500 blur-[100px] md:blur-[150px] opacity-30 top-[-100px] left-[-100px] pointer-events-none" />
       <div className="absolute w-[300px] h-[300px] md:w-[500px] md:h-[500px] bg-cyan-500 blur-[100px] md:blur-[150px] opacity-20 bottom-[-50px] right-[-50px] pointer-events-none" />
 
-      {/* ================= KONTEN UTAMA ================= */}
+     
       <div className="relative max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center text-white z-10">
 
-        {/* --- BLOK TEKS (KIRI) --- */}
-        {/* 💡 Mengubah div menjadi motion.div parent */}
+       
         <motion.div 
           variants={heroTextVariant}
           initial="hidden"
@@ -90,6 +89,7 @@ function Hero() {
                   src="/pubg.jfif" 
                   className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                   alt="PUBG Mobile"
+                  loading="lazy"
                   onError={(e) => { e.target.style.display = 'none'; }}
                 />
               </motion.div>
@@ -104,6 +104,7 @@ function Hero() {
                   src="/ff.jpg" 
                   className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                   alt="Free Fire"
+                  loading = "lazy"
                   onError={(e) => { e.target.style.display = 'none'; }}
                 />
               </motion.div>
@@ -122,6 +123,7 @@ function Hero() {
                   src="/ml.webp" 
                   className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                   alt="Mobile Legends"
+                  loading="lazy"
                   onError={(e) => { e.target.style.display = 'none'; }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-cyan-500/20 via-transparent to-white/10 pointer-events-none" />
@@ -137,6 +139,7 @@ function Hero() {
                   src="/valorant.jpg" 
                   className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                   alt="Valorant"
+                  loading="lazy"
                   onError={(e) => { e.target.style.display = 'none'; }}
                 />
               </motion.div>

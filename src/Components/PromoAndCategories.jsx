@@ -8,7 +8,7 @@ function PromoAndCategories() {
   return (
     <section className="bg-[#0b0f19] text-white py-24 px-6 relative overflow-hidden">
       
-      {/* ================= BACKGROUND TECH/AMBIENT LINES ================= */}
+      
       <div className="absolute w-[500px] h-[500px] bg-purple-600/10 blur-[180px] top-0 left-1/4 pointer-events-none" />
       <div className="absolute w-[500px] h-[500px] bg-blue-600/10 blur-[180px] bottom-0 right-1/4 pointer-events-none" />
 
@@ -40,9 +40,9 @@ function PromoAndCategories() {
             {PROMO_BANNERS.map((promo, index) => (
               <motion.div 
                 key={promo.id} 
-                custom={index}            // 💡 Kirim index untuk menentukan arah slide (kiri/kanan)
-                variants={promoSlideIn}   // 💡 Gunakan animasi geser menyilang
-                whileHover={{ y: -5 }}    // Efek hover naik sedikit saat disentuh
+                custom={index}            
+                variants={promoSlideIn}   
+                whileHover={{ y: -5 }}   
                 className={`group p-8 rounded-[2rem] bg-gradient-to-br ${promo.bgGradient} border border-white/5 ${promo.borderColor} transition-all duration-500 shadow-[0_20px_50px_rgba(0,0,0,0.3)] hover:shadow-2xl cursor-pointer relative overflow-hidden backdrop-blur-xl`}
               >
                 <div className={`absolute -right-10 -bottom-10 w-40 h-40 ${promo.glowColor} rounded-full blur-3xl group-hover:scale-150 transition-all duration-700 pointer-events-none`} />
